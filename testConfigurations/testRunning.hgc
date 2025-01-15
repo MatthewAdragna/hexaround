@@ -1,0 +1,32 @@
+/* There are two parts, CREATURES and PLAYERS .
+* These must be upper case, followed by a colon.
+*/
+
+
+
+CREATURES:
+/* A creature specification has the form:
+* creature name '[' list of properties ']'
+* distance of 1 is default if not specified
+*/
+butterfly [walking QUEEN]
+DUCK 7 [FLYING]
+RABBIT 5 [running]
+SPIDER 3 [jumping]
+
+
+
+PLAYERS:
+
+BLUE
+/* the comma is necessary, for all except last in a player */
+butterfly 1,
+duck 1,
+rabbit 1,
+spider 1
+
+RED
+butterfly 1,
+duck 1,
+rabbit 1,
+spider 1
